@@ -21,11 +21,11 @@ int main(){
 	sf::Texture playerTexture;
 	playerTexture.loadFromFile("playerSprite.png");
 	sf::Texture enemyTexture;
-	enemyTexture.loadFromFile("omar.png");
+	enemyTexture.loadFromFile("enemy.png");
 	Player player(&playerTexture, sf::Vector2u(4, 2), 0.5f, 500.0f);
 	Enemy enemy(&enemyTexture, sf::Vector2u(4, 2), 0.3f, 50.0f);
 	sf::Texture playerTexture2;
-	playerTexture2.loadFromFile("omar1.png");
+	playerTexture2.loadFromFile("enemy1.png");
 	//Delta time
 	float deltaTime = 0.0f;
 	sf::Clock clock;
@@ -176,6 +176,7 @@ int main(){
 		window.draw(hscorenum);
 		window.display();
 	}
+	//game over
 	//window.clear(sf::Color::White);
 	//window.draw(background);
 	//window.draw(gameover);
