@@ -1,3 +1,4 @@
 # SFML-game
-First game that i have made using SFML library.
+Basic 2d video game made using c++ and SFML library.
 SFML version 2.5.1
+Missing sprite and sound assets.
