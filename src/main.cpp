@@ -11,7 +11,7 @@ sf::Vector2f foodRandom(sf::Vector2f a, sf::RenderWindow& window);
 
 int main(){
 	//Window
-	sf::RenderWindow window(sf::VideoMode(1280, 720), "Asi Kertenkele", sf::Style::Close | sf::Style::Resize);
+	sf::RenderWindow window(sf::VideoMode(1280, 720), "SFML Game", sf::Style::Close | sf::Style::Resize);
 	sf::RectangleShape background;
 	sf::Texture bckgrndTexture;
 	bckgrndTexture.loadFromFile("background.png");
